@@ -1,0 +1,74 @@
+body { 
+  background-color: #b5a789;
+  /* 背景颜色 */
+  font-family:      Georgia, "Times New Roman", Times, serif;
+   /* 设置字体，优先使用 Georgia 字体，如果不支持则依次选择 "Times New Roman", Times, serif */
+  font-size:        small;
+  margin:           0px;
+  background-image: url(image/homepagelogo/背景.jpg);
+  /* 背景图片 */
+  background-repeat: no-repeat;
+  /* 背景图片元素不重复 */
+  background-size: cover;
+  /* 背景覆盖页面 */
+  background-attachment: fixed;
+  /* 填充自适应 */
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center; /* 在主轴上居中 */
+  align-items: center; /* 在副轴上居中 */
+  
+
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.top{
+  font-style:italic ;
+  font-weight: bold;
+  font-size: 3vw;
+  /* vw是我为了直接与窗口适应在网上找的一直单位计量方式，百度翻译为： 
+  vw（Viewport Width）、vh(Viewport Height)是基于视图窗口的单位，是css3的一部分，基于视图窗口的单位，除了vw、vh还有vmin、vmax。 */
+  color: white;
+  border-color: aqua;
+  text-align: center;
+  /* 居中 */
+  padding: auto;
+  /* 内边框自适应 */
+  margin: 5vw;
+  /* 外边框5vw */
+}
+.parent{
+  display: flex; /* 将父元素设置为弹性盒子 */
+  justify-content: center; /* 在主轴上居中（水平方向） */
+}
+.nav{
+  padding: 0.5vw; /* 设置导航条的内边距 */
+  margin: 7vw 0.5vw; /* 设置导航条的外边距（上下为7vw，左右为0.5vw）*/
+}
+.nav a:link{
+  font-style:italic ; /* 设置链接文本为斜体字 */
+  font-weight: bold; /* 设置链接文本的加粗效果 */
+  color: rgb(234, 130, 26); /* 设置链接文本的颜色 */
+  font-size: 4vw; /* 设置链接文本的大小为viewport宽度的百分之四 */
+  text-decoration: none; /* 去掉链接下划线 */
+}
+.nav a:visited{
+  color: aqua;/* 设置访问过的链接文本的颜色 */
+}
+footer{
+  text-align: center; /* 将页脚文本内容居中 */
+}

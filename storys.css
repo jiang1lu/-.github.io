@@ -1,0 +1,163 @@
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  .header {
+    background-color: #0077be; /* 设置背景颜色 */
+    color: white; /* 设置文本颜色 */
+    /* padding: 20px; 设置内补白 */
+    text-align: center; /* 设置文本居中对齐 */
+    font-size: 36px; /* 设置字体大小 */
+    /* font-weight: bold; 设置文字加粗 */
+    height: 100px;
+  }
+
+ 
+  nav {
+    background-color: #0845c8;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    display: inline-block;
+  }
+  
+  
+  li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  h2 {
+    text-align: center;
+    /* 设置标题居中显示 */
+    margin-top: 10px;
+    /* 设定上外边距为 10 像素 */ 
+    font-style: italic;
+    /* 设置标题字体样式为斜体 */
+}
+
+.container {
+    max-width: 800px;
+    /* 设置最大宽度为 800 像素 */
+    margin: 0 auto;
+    /* 自动居中对齐 */
+    padding: 20px;
+    /* 设定内边距为 20 像素，增加容器内部空白区域*/
+    background-color: #fff;
+    /* 背景色设置为白色 */
+    border-radius: 5px;
+    /* 应用圆角边框，设置半径为 5 像素 */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    /* 应用阴影效果，生成浅灰色、模糊、带有偏移的阴影效果 */
+}
+
+form {
+    margin-top: 30px;
+    /* 设定上外边距为 30 像素 */
+}
+
+label {
+    display: block;
+    /* 将标签设定为块级元素。例如，当一个 label 排在另一个标签之后时，它会另起一行，具有更好的排版效果 */
+    font-weight: bold;
+    /* 设置标签字体粗细为 bold，增强可读性 */
+    margin-bottom: 5px;
+    /* 设定下外边距为 5 像素，改变标签之间的垂直距离 */
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    /* 设置表单元素宽度为 100% ，使之自适应容器宽度*/
+    padding: 10px;
+    /* 设定内边距为 10像素，增加元素可点击区域 */
+    border-radius: 5px;
+    /* 应用圆角边框，设置半径为 5 像素 */
+    border: 1px solid #ccc;
+    /* 设置表单元素边框样式 */
+    box-sizing: border-box;
+    /* 将边框大小包含在元素的尺寸内，防止尺寸溢出 */
+    resize: none;
+    /* 禁止 textarea 调整尺寸*/
+}
+
+  
+  button[type="submit"] {
+    /* 选择type属性为submit的按钮 */
+    display: block; 
+    /* 设置display为block，使其显示为块级元素 */
+    margin-top: 20px;
+    /* 设定上外边距为20像素 */
+    padding: 10px;
+    /* 设置内边距为10像素，增加元素可点击区域 */
+    border: none;
+    /* 去掉按钮的边框 */
+    border-radius: 5px;
+    /* 圆角边框设定为5像素 */
+    background-color: #4CAF50;
+    /* 设置背景色为绿色 */
+    color: white;
+    /* 设置文字颜色为白色 */
+    cursor: pointer;
+    /* 鼠标悬停时显示小手样式光标 */
+}
+
+  
+  .message-list {
+    margin-top: 30px;
+    padding: 0;
+    list-style-type: none;
+    /* 去除列表默认的标记符号 */
+  }
+  
+  .message-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .message-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .message-item p {
+    margin: 0;
+    color: #888;
+    /* 文字边框以及颜色 */
+  }
+
+  table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+th {
+    background-color: #ccc;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;       
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+  footer{
+    text-align: center;
+    /* 页脚居中 */
+  }
+  

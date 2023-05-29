@@ -1,0 +1,102 @@
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    /* 给页眉区设置 背景颜色*/
+    background-color: #0077be;
+    color: #fff;
+    /* 字体颜色 */
+    padding: 1rem;
+    /* 页眉内容边距为1rem */
+    text-align: center;
+    
+   
+    
+   
+  }
+ .ps{
+  font-style: italic;
+  font-weight: 100;
+  /* 给照片注释的字体设置为斜体，并且固定字体宽度 */
+
+ }
+ img {
+  max-width: 33%; 
+  /* 图片大小自适应父级容器 */
+  max-height: 200px; 
+  /* 最大高度 */
+  object-fit: cover;
+   /* 压缩图片使之填满整个容器 */
+}
+
+   
+nav {
+  background-color: #0845c8;
+  /* 背景颜色 */
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline-block;
+}
+
+
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* 此处代码完全同hometown相同 */
+
+main > section {
+  display: flex;
+  /* 设置main标签下所有子元素为flex布局，并自动换行,在每个元素之间平均分配空间 */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem auto; /* 外边距(上下)为2rem，左右自适应 */
+  max-width: 1000px; /* 子元素的最大宽度为1000px */
+
+  font-style: italic; /* 设置斜体字 */
+  margin-top: 0.5rem; /* 设置子元素的顶部外边距为0.5rem */
+
+  flex-basis: 48%; /* 每个子元素初始大小为48%，且可以收缩 */
+  margin-bottom: 2rem; /* 设置子元素的底部外边距为2rem */
+}
+
+/* 子元素h2标签占据一整行 */
+main > section > h2 {
+  flex-basis: 100%;
+}
+
+/* 子元素p标签每行占据48%的空间 */
+main > section > p {
+  flex-basis: 48%;
+}
+
+/* 子元素img标签的宽度为100%（父元素宽度）*/
+main > section > img {
+  width: 100%;
+}
+
+/* 页脚居中 */
+footer{
+  text-align: center;
+}
+
+  
+
+ 

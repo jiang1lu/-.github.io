@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="storys.css">
+    <title>留言板</title>
+
+</head>
+<body>
+    <div class="header">
+        <h1>留言板</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="info.html">个人资料</a></li>
+        <li><a href="hometown.html">我的家乡</a></li>
+        <li><a href="hobby.html">我的爱好</a></li>
+        <li><a href="storys.html">留言版</a></li>
+      </ul>
+    </nav>
+
+    
+        <h2>请给我留言吧！</h2>
+            <div class="container">
+              <form action="#">
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="name" placeholder="请填写您的姓名" required>
+                
+                <label for="email">邮箱地址：</label>
+                <input type="email" id="email" name="email" placeholder="请填写您的邮箱地址" required>
+                
+                <label for="message">留言内容：</label>
+                <textarea id="message" name="message" rows="5" placeholder="请输入您要留言的内容" required></textarea>
+                
+                <button type="submit">提交留言</button>
+              </form>
+              <h1>这是其他人的留言...</h1>
+              <table>
+                <thead>
+                  <tr>
+                    <th>姓名</th>
+                    <th>邮箱</th>
+                    <th>留言内容</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>张三</td>
+                    <td>zhangsan@example.com</td>
+                    <td>亲爱的朋友，你真的很棒！</td>
+                  </tr>
+                  <tr>
+                    <td>李四</td>
+                    <td>lisi@example.com</td>
+                    <td>Eminem and proof</td>
+                  </tr>
+                  <tr>
+                    <td>王五</td>
+                    <td>wangwu@example.com</td>
+                    <td>欲买桂花同载酒，终不似少年游</td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+            </div>
+            <footer>
+              <p>©202121130040蒋一路</p>
+            </footer>
+</body>
+</html>

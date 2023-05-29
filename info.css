@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+    padding-bottom: 0px;
+    }
+
+.header {
+        background-color: #0077be; /* 设置背景颜色 */
+        color: white; /* 设置文本颜色 */
+        /* padding: 20px; 设置内补白 */
+        text-align: center; /* 设置文本居中对齐 */
+        font-size: 36px; /* 设置字体大小 */
+        /* font-weight: bold; 设置文字加粗 */
+        height: 100px;
+      }
+       
+nav {
+    background-color: #0845c8;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    display: inline-block;
+  }
+  
+  
+  li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+
+
+.box{
+    margin:0px auto; /*将div盒子居中*/
+    width:100%;
+    /* 宽度占满全部 */
+    height:842px;
+    background-color: blue;
+    /* 背景颜色 */
+
+    }
+ 
+/*左侧内容*/
+.left-box{
+    background-color: #D9DADE;
+    width: 33%;
+    /* 左边盒子占1/3 */
+    height: 100%;
+    float:left;
+    /* 左浮动 */
+    }
+.me-img{
+    /*background-color: blue;*/
+    text-align:center;
+    margin-left:20%;
+    width:60%;
+    /* 图片占左边盒子的60 */
+    height:40%;
+    }
+.me-img img{
+    /* 设置边框顶部 */
+    margin-top:120px;
+    width:110px;
+    /* 设置边框宽度和高度 */
+    height:100px;
+    }
+.basic-information{
+   /*background-color: blue;*/
+    margin-left:30px;
+    }
+.honor-award{  /*荣誉奖励*/
+    /*background-color: blue;*/
+    margin:0px auto;
+    margin-left:30px;
+    width:80%;
+    }
+.honor-award table{
+    margin-left:30px;
+    }
+ /*右侧内容*/
+.right-box{
+    background-color: #F0F0F0;
+    width: 67%;
+    height: 100%;
+    float:right;
+    }
+.self-assessment{
+    /*background-color: blue;*/
+    padding-top:20px;
+    margin-left:10px;
+    margin-right:20px;
+    }
+.self-assessment p{
+    font-size:10px;
+    margin-left:30px;
+    }
+.professional-skills{
+    /*background-color: blue;*/
+    margin-left:10px;
+    padding-bottom: 25px;
+    }
+.professional-skills ol{
+    /*background-color: blue;*/
+   /* margin-left:10px;*/
+    font-size:12px;
+    }
+.project-practice{
+    background-color:  #F0F0F0;
+
+    margin-left:10px;
+    }
+    footer{
+        text-align: center;
+        /* 页脚元素居中 */
+      }
+      
